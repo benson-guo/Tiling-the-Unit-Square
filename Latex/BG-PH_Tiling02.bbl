@@ -1,0 +1,36 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{Balint92}
+Vojtech B{\'a}lint, \emph{A packing problem and geometrical series}, Fourth
+  {C}zechoslovakian {S}ymposium on {C}ombinatorics, {G}raphs and {C}omplexity
+  ({P}rachatice, 1990), Ann. Discrete Math., vol.~51, North-Holland, Amsterdam,
+  1992, pp.~17--21. \MR{1206238 (94b:52031)}
+
+\bibitem{Balint98}
+\bysame, \emph{Two packing problems}, Discrete Math. \textbf{178} (1998),
+  no.~1-3, 233--236. \MR{1483753 (98f:05041)}
+
+\bibitem{CFG94}
+Hallard~T. Croft, Kenneth~J. Falconer, and Richard~K. Guy, \emph{Unsolved
+  problems in geometry}, Problem Books in Mathematics, Springer-Verlag, New
+  York, 1994, Corrected reprint of the 1991 original [ MR1107516 (92c:52001)],
+  Unsolved Problems in Intuitive Mathematics, II. \MR{1316393 (95k:52001)}
+
+\bibitem{KleeWagon91}
+Victor Klee and Stan Wagon, \emph{Old and new unsolved problems in plane
+  geometry and number theory}, The Dolciani Mathematical Expositions, vol.~11,
+  Mathematical Association of America, Washington, DC, 1991. \MR{1133201
+  (92k:00014)}
+
+\bibitem{Paulhus98}
+Marc~M. Paulhus, \emph{An algorithm for packing squares}, J. Combin. Theory
+  Ser. A \textbf{82} (1998), no.~2, 147--157. \MR{1620857 (99e:52028)}
+
+\end{thebibliography}

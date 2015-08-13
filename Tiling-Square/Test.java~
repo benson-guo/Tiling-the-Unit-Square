@@ -1,0 +1,48 @@
+
+import java.io.*;
+
+public class Test
+{
+  static int count=0;
+  public static void main (String[] args )
+  {
+    for (int x=1;x<8;x++)
+    {
+      for (int y=1;y<8;y++)
+      {
+        if (y==x)continue;
+        for (int z=1;z<8;z++)
+        {
+          if (z==y||z==x)continue;
+          for (int a=1;a<8;a++)
+          {
+            if (a==z||a==y||a==x)continue;
+            for (int b=1;b<8;b++)
+            {
+              if (b==a||b==z||b==y||b==x)continue;
+              for (int c=1;c<8;c++)
+              {
+                if (c==a||c==z||c==y||c==x||c==b)continue;
+                for (int d=1;d<8;d++)
+                {
+                  if (d==c||d==a||d==z||d==y||d==x||d==b)continue;
+                  else
+                  {
+                    if (x>y+2)continue;
+                    if (y>z+2)continue;
+                    if (z>a+2)continue;
+                    if (a>b+2)continue;
+                    if (b>c+2)continue;
+                    if (c>d+2)continue;
+                    count++;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    System.out.println (count);
+  }
+}

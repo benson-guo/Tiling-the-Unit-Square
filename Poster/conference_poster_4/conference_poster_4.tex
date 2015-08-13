@@ -1,0 +1,239 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% baposter Landscape Poster
+% LaTeX Template
+% Version 1.0 (11/06/13)
+%
+% baposter Class Created by:
+% Brian Amberg (baposter@brian-amberg.de)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-----------------------------------------------------------6-----------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[landscape,a0paper,fontscale=0.285]{baposter} % Adjust the font scale/size here
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{figures/}} % Directory in which figures are stored
+
+\usepackage{amsmath} % For typesetting math
+\usepackage{amssymb} % Adds new symbols to be used in math mode
+
+\usepackage{booktabs} % Top and bottom rules for tables
+\usepackage{enumitem} % Used to reduce itemize/enumerate spacing
+\usepackage{palatino} % Use the Palatino font
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+
+\usepackage{multicol} % Required for multiple columns
+\setlength{\columnsep}{1.5em} % Slightly increase the space between columns
+\setlength{\columnseprule}{0mm} % No horizontal rule between columns
+
+\usepackage{tikz} % Required for flow chart
+\usetikzlibrary{shapes,arrows} % Tikz libraries required for the flow chart in the template
+
+\newcommand{\compresslist}{ % Define a command to reduce spacing within itemize/enumerate environments, this is used right after \begin{itemize} or \begin{enumerate}
+\setlength{\itemsep}{1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+}
+
+\definecolor{lightblue}{rgb}{0.145,0.6666,1} % Defines the color used for content box headers
+
+\begin{document}
+
+\begin{poster}
+{
+headerborder=closed, % Adds a border around the header of content boxes
+colspacing=1em, % Column spacing
+bgColorOne=white, % Background color for the gradient on the left side of the poster
+bgColorTwo=white, % Background color for the gradient on the right side of the poster
+borderColor=lightblue, % Border color
+headerColorOne=black, % Background color for the header in the content boxes (left side)
+headerColorTwo=lightblue, % Background color for the header in the content boxes (right side)
+headerFontColor=white, % Text color for the header text in the content boxes
+boxColorOne=white, % Background color of the content boxes
+textborder=roundedleft, % Format of the border around content boxes, can be: none, bars, coils, triangles, rectangle, rounded, roundedsmall, roundedright or faded
+eyecatcher=true, % Set to false for ignoring the left logo in the title and move the title left
+headerheight=0.1\textheight, % Height of the header
+headershape=roundedright, % Specify the rounded corner in the content box headers, can be: rectangle, small-rounded, roundedright, roundedleft or rounded
+headerfont=\Large\bf\textsc, % Large, bold and sans serif font in the headers of content boxes
+%textfont={\setlength{\parindent}{1.5em}}, % Uncomment for paragraph indentation
+linewidth=2pt % Width of the border lines around content boxes
+}
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION 
+%----------------------------------------------------------------------------------------
+%
+{\includegraphics[height=4em]{logo.png}} % First university/lab logo on the left
+{\bf\textsc{Tiling the Unit Square}\vspace{0.5em}} % Poster title
+{\textsc{\{ Peter Hazard, Benson Guo \} \hspace{12pt} University of Toronto Mentorship Program 2015}} % Author names and institution
+{\includegraphics[height=4em]{logo.png}} % Second university/lab logo on the right
+
+%----------------------------------------------------------------------------------------
+%	INTRO
+%----------------------------------------------------------------------------------------
+
+\headerbox{Introduction}{name=intro,column=0,span=2,row=0}{
+Through fractional decomposition, $\frac{1}{k}\cdot\frac{1}{k+1}$ can be rewritten as $\frac{1}{k}-\frac{1}{k+1}$
+
+As a consequence, $\sum\limits_{n=1}^\infty \frac{1}{n}\cdot\frac{1}{n+1}$	 can be evaluated as a telescoping series. 
+
+\begin{center}
+$\sum\limits_{n=1}^\infty \frac{1}{n}\cdot\frac{1}{n+1}=(\frac{1}{1}-\frac{1}{2})+(\frac{1}{2}-\frac{1}{3})+(\frac{1}{3}-\frac{1}{4})+\ldots+(\frac{1}{n}-\frac{1}{n+1})=1-\frac{1}{\infty}=1$
+\end {center}
+
+This unintuitive result begs the answer to the following:
+
+\begin{quote}
+{\it Problem:}
+Can the unit square $[0,1]^2$ be tiled with rectangles of sides $\frac{1}{n}\times\frac{1}{n+1}$ for $n=1,2,\ldots$
+\end{quote}
+Relaxing the constraint gives a more general problem:
+\begin{quote}
+{\it Problem:}
+Find the smallest square $[0,1+\epsilon]^2$, $\epsilon\geq 0$, into which the rectangles of sides $\frac{1}{n}\times\frac{1}{n+1}$, $n=1,2,\ldots$, can be packed.
+\end{quote}
+
+This question was originally proposed by L. Moser. The first problem remains unsolved to this day, and for the latter, the best solution  so far is by Balint.
+
+
+
+\vspace{0.3em} % When there are two boxes, some whitespace may need to be added if the one on the right has more content
+}
+
+
+%----------------------------------------------------------------------------------------
+%	ALGORITHM
+%----------------------------------------------------------------------------------------
+
+\headerbox{Algorithm}{name=algorithm,column=2,span=2,row=0}{
+
+\begin{multicols}{2}
+\vspace{1em}
+\begin{center}
+\includegraphics[width=0.8\linewidth]{placeholder}
+\captionof{figure}{Figure caption}
+\end{center}
+
+
+\end{multicols}
+
+%------------------------------------------------
+
+\begin{multicols}{2}
+\vspace{1em}
+
+
+\begin{center}
+\includegraphics[width=0.8\linewidth]{placeholder}
+\captionof{figure}{Figure caption}
+\end{center}
+
+\end{multicols}
+}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\headerbox{References}{name=references,column=3,above=bottom}{ % This block is as tall as the references block
+
+\renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
+\nocite{*} % Insert publications even if they are not cited in the poster
+
+\bibliographystyle{unsrt}
+
+
+\bibliography{sample} % Use sample.bib as the bibliography file
+
+}
+
+
+%----------------------------------------------------------------------------------------
+%	FUTURE INVESTIGATION
+%----------------------------------------------------------------------------------------
+
+\headerbox{Future Investigation}{name=futureresearch,column=0,span=3,aligned=references,above=bottom}{ % This block is as tall as the references block
+
+Techniques and concepts used in the attempt to tile the square can be applied towards rectangles with varying side lengths. Any rectangle with side lengths $\frac{a}{b}$ by $\frac {b}{a}$ has an area of 1.
+It is worth looking into whether a rectangle of $\frac{3}{2}$ by $\frac {1}{2}$ or $\frac{4}{3}$ by $\frac {3}{4}$ would be more optimal for tiling. Other tiling challenges also remain to be tackled, such tiling an area of $\frac{\pi^2}{6}$ with tiles of $\frac{1}{k^2}$
+
+}
+
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSION
+%----------------------------------------------------------------------------------------
+
+\headerbox{Conclusion \& Results}{name=conclusion,column=2,span=2,row=0,below=algorithm,above=references}{
+
+\begin{multicols}{2}
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, text width=4.5em, text badly centered, node distance=2cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=8em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse, fill=red!20, node distance=3cm, minimum height=2em]
+
+\begin{tikzpicture}[node distance = 2cm, auto]
+\node [block] (init) {Reach Inductive Hypothesis};
+\node [cloud, left of=init] (Start) {Start};
+\node [cloud, right of=init] (Start2) {Repeat};
+\node [block, below of=init] (init2) {Apply Algorithm};
+\node [decision, below of=init2] (End) {End};
+\path [line] (init) -- (init2);
+\path [line] (init2) -- (End);
+\path [line, dashed] (Start) -- (init);
+\path [line, dashed] (Start2) -- (init);
+\path [line, dashed] (init2) -| (Start2);
+\end{tikzpicture}
+
+
+%------------------------------------------------
+
+\begin{itemize}\compresslist
+\item ...
+\end{itemize}
+\end{multicols}
+}
+
+%----------------------------------------------------------------------------------------
+%	APPROACH & HYPOTHESIS
+%----------------------------------------------------------------------------------------
+
+\headerbox{Hypothesis \& Approach }{name=approach,column=0,span=2,below=intro,bottomaligned=conclusion}{ % This block's bottom aligns with the bottom of the conclusion block
+
+Since the summation shows that an infinte number of tiles add up to an area of 1, we worked on an inductive hypothesis, which would show that the free space always fits the next tile to be positioned. The following hypotheses are made and definition are used in our approach:
+
+\begin{itemize}\compresslist
+\item The tiles are added parallel to the sides of $T_0$.
+\item For each $n\in\mathbb{N}$, the free space is connected and simply connected.
+\item\textit{Tile $T_k$} - The kth rectangle to be added, with dimensions $\frac{1}{k}$ by $\frac{1}{k+1}$ 
+\item\textit{Free Space} - The rectangular spacing that remains to be tiled, $T_0\setminus \bigcup_{n=1}^{n}T_i$. The free space can be further separated into individual rectangles, denoted by  $F_n^1,F_n^2,\ldots,F_n^{k_n}$.
+\end{itemize}
+
+We attack the problem by assuming that there exists a tiling where the free spaces are in the proportion of roughly $\frac{2}{n+1}$ by $\frac{2}{n+1}$, where the next tile to be placed is $T_{k+1}$  \newline
+$F_N^{1} \sim \frac{2}{N+1} \times \frac {2}{N}$
+
+$F_N^{1} \sim \frac{2}{N+2} \times \frac {2}{N+1}$
+
+$\ldots$
+
+$F_N^{N} \sim \frac{2}{N+N} \times \frac {2}{N+N-1}$
+
+By always tiling a rectangle $T_k$ in a free space with approximately double the dimensions of $T_k$, the proportionailty of the free space can be shown to be preserved.
+
+What remains is to discern whether or not the initial conditions of the hypotheses are possible to reach. A computer program was written to run through all the possible configurations of the first few tiles. 
+}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{poster}
+
+\end{document}

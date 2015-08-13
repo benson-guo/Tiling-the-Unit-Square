@@ -1,0 +1,32 @@
+import java.util.*;
+import java.io.*;
+
+class FractionSearcher
+{
+  public static void main (String[]args)throws IOException
+  {
+    PrintWriter out=new PrintWriter (new FileWriter ("fractions.txt"));
+    for (int x=2;x<1000;x++)
+    {
+      for (int y=x;y<1000;y++)
+      {
+        for (int z=y;z<1000;z++)
+        {
+          Fraction ans=new Fraction (x);
+          ans=ans.add (new Fraction (y));
+          ans=ans.add (new Fraction (z));
+          if (ans.checkSize(ans))continue;
+          if (ans.check(ans))
+          {
+            System.out.println ("Solution: 1/"+x+" 1/"+y+" 1/"+z+" "+ans.toString());
+          out.println ("Solution: 1/"+x+" 1/"+y+" 1/"+z+" "+ans.toString());
+          }
+         // else 
+          //  System.out.println(x+" "+y+" "+z+" "+ans.toString());
+        }
+      }
+    }
+          System.out.println ("done");
+          out.close();
+  }
+}

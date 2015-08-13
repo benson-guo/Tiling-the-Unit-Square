@@ -1,0 +1,997 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.7)  28 APR 2015 20:07
+entering extended mode
+**C:/Users/Benson/Desktop/Math*Mentorship/Poster/conference_poster_4/Mentorship
+_Poster.tex
+
+("C:/Users/Benson/Desktop/Math Mentorship/Poster/conference_poster_4/Mentorship
+_Poster.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+("C:\Users\Benson\Desktop\Math Mentorship\Poster\conference_poster_4\baposter.c
+ls"
+Document Class: baposter 2011/11/26 v2.0 baposter class
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+baposter: Brian Amberg, 2007, 2008, 2009, 2010, 2011 | http://www.brian-amberg.
+de/uni/poster/
+baposter: Reinhold Kainhofer, 2011 | http://reinhold.kainhofer.com/
+\baposter@basepaperwidth=\skip43
+\baposter@basepaperheight=\skip44
+\baposter@basemargin=\skip45
+\baposter@finalpaperwidth=\skip46
+\baposter@finalpaperheight=\skip47
+\baposter@finalmargin=\skip48
+\headerheight=\skip49
+\colwidth=\skip50
+\colheight=\skip51
+\baposter@@colspacing=\skip52
+\baposter@box@@cornerradius=\skip53
+\baposter@box@@boxheaderheight=\skip54
+\baposter@box@@boxpadding=\skip55
+\boxstartx=\skip56
+\boxstarty=\skip57
+\boxwidth=\skip58
+\boxheight=\skip59
+\baposter@titleimage@left@width=\skip60
+\baposter@titleimage@right@width=\skip61
+\baposter@titleimage@textwidth=\skip62
+\baposter@box@content=\box26
+\baposter@titleimage@left=\box27
+\baposter@titleimage@title=\box28
+\baposter@titleimage@right=\box29
+Use Packages
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\xkeyval\xkeyval.te
+x"
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count87
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\xkeyval\keyval.tex
+"))) ("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count90
+\calc@Cskip=\skip65
+) ("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pdftex-def\pdftex.de
+f"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\oberdiek\infwarerr
+.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\oberdiek\ltxcmds.s
+ty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\frontendlayer\ti
+kz.sty"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\basiclayer\pgf.s
+ty"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\utilities\pgfrcs
+.sty"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\utilities\pgfu
+til-common.tex"
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen105
+\pgfutil@tempdimb=\dimen106
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\utilities\pgfu
+til-common-lists.tex"))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\utilities\pgfu
+til-latex.def"
+\pgfutil@abb=\box30
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\utilities\pgfr
+cs.code.tex"
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\basiclayer\pgfco
+re.sty"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\graphics\graphicx.st
+y"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\graphics\graphics.st
+y"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\00miktex\graphics.cf
+g"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\systemlayer\pgfs
+ys.sty"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\systemlayer\pg
+fsys.code.tex"
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\utilities\pgfk
+eys.code.tex"
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\utilities\pgfk
+eysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen109
+\pgf@y=\dimen110
+\pgf@xa=\dimen111
+\pgf@ya=\dimen112
+\pgf@xb=\dimen113
+\pgf@yb=\dimen114
+\pgf@xc=\dimen115
+\pgf@yc=\dimen116
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count92
+\c@pgf@countb=\count93
+\c@pgf@countc=\count94
+\c@pgf@countd=\count95
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\systemlayer\pg
+f.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\systemlayer\pg
+fsys-pdftex.def"
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\systemlayer\pg
+fsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\systemlayer\pg
+fsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count96
+\pgfsyssoftpath@bigbuffer@items=\count97
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\systemlayer\pg
+fsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+core.code.tex"
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmath.c
+ode.tex"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathca
+lc.code.tex"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathut
+il.code.tex")
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathpa
+rser.code.tex"
+\pgfmath@dimen=\dimen117
+\pgfmath@count=\count98
+\pgfmath@box=\box31
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfu
+nctions.code.tex"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfu
+nctions.basic.code.tex")
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfu
+nctions.trigonometric.code.tex")
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfu
+nctions.random.code.tex")
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfu
+nctions.comparison.code.tex")
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfu
+nctions.base.code.tex")
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfu
+nctions.round.code.tex")
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfu
+nctions.misc.code.tex")
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfu
+nctions.integerarithmetics.code.tex")))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmathfl
+oat.code.tex"
+\c@pgfmathroundto@lastzeros=\count99
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+corepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen118
+\pgf@picmaxx=\dimen119
+\pgf@picminy=\dimen120
+\pgf@picmaxy=\dimen121
+\pgf@pathminx=\dimen122
+\pgf@pathmaxx=\dimen123
+\pgf@pathminy=\dimen124
+\pgf@pathmaxy=\dimen125
+\pgf@xx=\dimen126
+\pgf@xy=\dimen127
+\pgf@yx=\dimen128
+\pgf@yy=\dimen129
+\pgf@zx=\dimen130
+\pgf@zy=\dimen131
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+corepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen132
+\pgf@path@lasty=\dimen133
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+corepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen134
+\pgf@shorten@start@additional=\dimen135
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+corescopes.code.tex"
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count100
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+coregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen136
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+coretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen137
+\pgf@pt@y=\dimen138
+\pgf@pt@temp=\dimen139
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+corequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+coreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+corepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+corearrows.code.tex"
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen140
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+coreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen141
+\pgf@sys@shading@range@num=\count101
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+coreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+coreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box35
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+corelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+coretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\basiclayer\pgf
+corepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\modules\pgfmod
+uleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box36
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\modules\pgfmod
+uleplot.code.tex"
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\compatibility\pg
+fcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen142
+\pgf@nodesepend=\dimen143
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\compatibility\pg
+fcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\utilities\pgffor
+.sty"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\utilities\pgfkey
+s.sty"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\utilities\pgfk
+eys.code.tex"))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\math\pgfmath.sty
+"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmath.c
+ode.tex"))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\utilities\pgff
+or.code.tex"
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\math\pgfmath.c
+ode.tex")
+\pgffor@iter=\dimen144
+\pgffor@skip=\dimen145
+\pgffor@stack=\toks26
+\pgffor@toks=\toks27
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\tikz.code.tex"
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\pgfl
+ibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count102
+\pgfplotmarksize=\dimen146
+)
+\tikz@lastx=\dimen147
+\tikz@lasty=\dimen148
+\tikz@lastxsaved=\dimen149
+\tikz@lastysaved=\dimen150
+\tikzleveldistance=\dimen151
+\tikzsiblingdistance=\dimen152
+\tikz@figbox=\box37
+\tikz@figbox@bg=\box38
+\tikz@tempbox=\box39
+\tikz@tempbox@bg=\box40
+\tikztreelevel=\count103
+\tikznumberofchildren=\count104
+\tikznumberofcurrentchild=\count105
+\tikz@fig@count=\count106
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\modules\pgfmod
+ulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count107
+\pgfmatrixcurrentcolumn=\count108
+\pgf@matrix@numberofcolumns=\count109
+)
+\tikz@expandcount=\count110
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\modules\pgfmod
+uledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen153
+\pgfdecoratedremainingdistance=\dimen154
+\pgfdecoratedinputsegmentcompleteddistance=\dimen155
+\pgfdecoratedinputsegmentremainingdistance=\dimen156
+\pgf@decorate@distancetomove=\dimen157
+\pgf@decorate@repeatstate=\count111
+\pgfdecorationsegmentamplitude=\dimen158
+\pgfdecorationsegmentlength=\dimen159
+)
+\tikz@lib@dec@box=\box41
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibraryfadings.code.tex"
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.0 (rcs-revision 1.2)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\pgfl
+ibraryfadings.code.tex"
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.0 (rcs-revision 1.3)
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibrarysnakes.code.tex"
+File: tikzlibrarysnakes.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.7)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
+
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\deco
+rations\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\deco
+rations\pgflibrarydecorations.pathreplacing.code.tex"))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibrarydecorations.shapes.code.tex"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\deco
+rations\pgflibrarydecorations.shapes.code.tex")))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
+)
+\baposter@movebody=\skip66
+\baposter@basemarginright=\skip67
+\baposter@basemarginleft=\skip68
+
+Paperwidth=2392.87677pt
+Paperheight=3383.03267pt
+BasePaperwidth=610.19525pt
+BasePaperheight=862.68983pt
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\geometry\geometry.st
+y"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\oberdiek\ifpdf.sty
+"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\oberdiek\ifvtex.st
+y"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\ifxetex\ifxetex.st
+y"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks28
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\geometry\geometry.cf
+g"))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\pgf\utilities\pgfpag
+es.sty"
+Package: pgfpages 2011/01/05 ver 0.02
+\pgf@logicalpages=\count115
+\pgf@firstshipout=\count116
+\pgf@lastshipout=\count117
+\pgf@currentshipout=\count118
+\pgf@cpn=\count119
+\pgf@shipoutnextto=\count120
+\pgfphysicalheight=\dimen168
+\pgfphysicalwidth=\dimen169
+\pgfpages@shipoutbox=\box42
+)
+\pgfpages@box@1=\box43
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip69
+For additional information on amsmath, use the `?' option.
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks29
+\ex@=\dimen170
+)) ("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\amsmath\amsbsy.st
+y"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen171
+) ("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\amsmath\amsopn.sty
+"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count121
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count122
+\leftroot@=\count123
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count124
+\DOTSCASE@=\count125
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box44
+\strutbox@=\box45
+\big@size=\dimen172
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count126
+\c@MaxMatrixCols=\count127
+\dotsspace@=\muskip10
+\c@parentequation=\count128
+\dspbrk@lvl=\count129
+\tag@help=\toks30
+\row@=\count130
+\column@=\count131
+\maxfields@=\count132
+\andhelp@=\toks31
+\eqnshift@=\dimen173
+\alignsep@=\dimen174
+\tagshift@=\dimen175
+\tagwidth@=\dimen176
+\totwidth@=\dimen177
+\lineht@=\dimen178
+\@envbody=\toks32
+\multlinegap=\skip70
+\multlinetaggap=\skip71
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\amsfonts\amssymb.sty
+"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\amsfonts\amsfonts.st
+y"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\booktabs\booktabs.st
+y"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen179
+\lightrulewidth=\dimen180
+\cmidrulewidth=\dimen181
+\belowrulesep=\dimen182
+\belowbottomsep=\dimen183
+\aboverulesep=\dimen184
+\abovetopsep=\dimen185
+\cmidrulesep=\dimen186
+\cmidrulekern=\dimen187
+\defaultaddspace=\dimen188
+\@cmidla=\count133
+\@cmidlb=\count134
+\@aboverulesep=\dimen189
+\@belowrulesep=\dimen190
+\@thisruleclass=\count135
+\@lastruleclass=\count136
+\@thisrulewidth=\dimen191
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\enumitem\enumitem.st
+y"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks34
+\labelindent=\skip72
+\enit@outerparindent=\dimen192
+\enit@toks=\toks35
+\enit@inbox=\box46
+\enitdp@description=\count137
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\psnfss\palatino.sty"
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) ("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\caption\caption.st
+y"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\caption\caption3.sty
+"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen193
+\captionmargin@=\dimen194
+\captionwidth=\dimen195
+\caption@tempdima=\dimen196
+\caption@indent=\dimen197
+\caption@parindent=\dimen198
+\caption@hangindent=\dimen199
+)
+\c@ContinuedFloat=\count138
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count139
+\mult@box=\box47
+\multicol@leftmargin=\dimen200
+\c@unbalance=\count140
+\c@collectmore=\count141
+\doublecol@number=\count142
+\multicoltolerance=\count143
+\multicolpretolerance=\count144
+\full@width=\dimen201
+\page@free=\dimen202
+\premulticols=\dimen203
+\postmulticols=\dimen204
+\multicolsep=\skip73
+\multicolbaselineskip=\skip74
+\partial@page=\box48
+\last@line=\box49
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\c@columnbadness=\count145
+\c@finalcolumnbadness=\count146
+\last@try=\dimen205
+\multicolovershoot=\dimen206
+\multicolundershoot=\dimen207
+\mult@nat@firstbox=\box71
+\colbreak@box=\box72
+\multicol@sort@counter=\count147
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibraryshapes.code.tex"
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\shap
+es\pgflibraryshapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibraryshapes.misc.code.tex"
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\shap
+es\pgflibraryshapes.misc.code.tex"
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibraryshapes.symbols.code.tex"
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\shap
+es\pgflibraryshapes.symbols.code.tex"
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibraryshapes.arrows.code.tex"
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\shap
+es\pgflibraryshapes.arrows.code.tex"
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibraryshapes.callouts.code.tex"
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\shap
+es\pgflibraryshapes.callouts.code.tex"))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibraryshapes.multipart.code.tex"
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\shap
+es\pgflibraryshapes.multipart.code.tex"
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box73
+\pgfnodeparttwobox=\box74
+\pgfnodepartthreebox=\box75
+\pgfnodepartfourbox=\box76
+\pgfnodeparttwentybox=\box77
+\pgfnodepartnineteenbox=\box78
+\pgfnodeparteighteenbox=\box79
+\pgfnodepartseventeenbox=\box80
+\pgfnodepartsixteenbox=\box81
+\pgfnodepartfifteenbox=\box82
+\pgfnodepartfourteenbox=\box83
+\pgfnodepartthirteenbox=\box84
+\pgfnodeparttwelvebox=\box85
+\pgfnodepartelevenbox=\box86
+\pgfnodeparttenbox=\box87
+\pgfnodepartninebox=\box88
+\pgfnodeparteightbox=\box89
+\pgfnodepartsevenbox=\box90
+\pgfnodepartsixbox=\box91
+\pgfnodepartfivebox=\box92
+)))
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\frontendlayer\
+tikz\libraries\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\generic\pgf\libraries\pgfl
+ibraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
+\arrowsize=\dimen208
+))
+("C:\Users\Benson\Desktop\Math Mentorship\Poster\conference_poster_4\Mentorship
+_Poster.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 49.
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\psnfss\t1ppl.fd"
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\context\base\supp-pdf.mkii
+"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count148
+\scratchdimen=\dimen209
+\scratchbox=\box93
+\nofMPsegments=\count149
+\nofMParguments=\count150
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count151
+\MPscratchDim=\dimen210
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
+\everyMPtoPDFconversion=\toks37
+) ABD: EveryShipout initializing macros
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(10.88338pt, 840.92308pt, 10.88338pt)
+* v-part:(T,H,B)=(10.88338pt, 588.4285pt, 10.88338pt)
+* \paperwidth=862.68983pt
+* \paperheight=610.19525pt
+* \textwidth=840.92308pt
+* \textheight=588.4285pt
+* \oddsidemargin=-61.38661pt
+* \evensidemargin=-61.38661pt
+* \topmargin=-98.38661pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=19.99512pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<figures/logo.png, id=30, 840.741pt x 313.17pt>
+File: figures/logo.png Graphic file (type png)
+ <use figures/logo.png>
+Package pdftex.def Info: figures/logo.png used on input line 77.
+(pdftex.def)             Requested size: 107.37587pt x 40.0pt.
+File: figures/logo.png Graphic file (type png)
+
+<use figures/logo.png>
+Package pdftex.def Info: figures/logo.png used on input line 77.
+(pdftex.def)             Requested size: 107.37587pt x 40.0pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 77.
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 104.
+LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 104.
+Missing character: There is no ; in font nullfont!
+
+<figures/Algorithm.png, id=34, 389.65575pt x 383.63326pt>
+File: figures/Algorithm.png Graphic file (type png)
+
+<use figures/Algorithm.png>
+Package pdftex.def Info: figures/Algorithm.png used on input line 135.
+(pdftex.def)             Requested size: 154.18713pt x 151.80566pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 135.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+("C:\Users\Benson\Desktop\Math Mentorship\Poster\conference_poster_4\Mentorship
+_Poster.bbl")
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ <figures/Config_2.png, id=35, 970.22475pt x 254.1495pt>
+File: figures/Config_2.png Graphic file (type png)
+
+<use figures/Config_2.png>
+Package pdftex.def Info: figures/Config_2.png used on input line 165.
+(pdftex.def)             Requested size: 324.37044pt x 84.96706pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 194.
+
+
+("C:\Users\Benson\Desktop\Math Mentorship\MikTex\tex\latex\psnfss\omsppl.fd"
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 194.
+
+<figures/Config_12A.png, id=36, 498.06075pt x 523.9575pt>
+File: figures/Config_12A.png Graphic file (type png)
+
+<use figures/Config_12A.png>
+Package pdftex.def Info: figures/Config_12A.png used on input line 194.
+(pdftex.def)             Requested size: 154.18713pt x 162.20128pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [2
+
+{C:/Users/Benson/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/B
+enson/Desktop/Math Mentorship/Poster/conference_poster_4/figures/logo.png> <C:/
+Users/Benson/Desktop/Math Mentorship/Poster/conference_poster_4/figures/Algorit
+hm.png> <C:/Users/Benson/Desktop/Math Mentorship/Poster/conference_poster_4/fig
+ures/Config_2.png> <C:/Users/Benson/Desktop/Math Mentorship/Poster/conference_p
+oster_4/figures/Config_12A.png>]
+("C:\Users\Benson\Desktop\Math Mentorship\Poster\conference_poster_4\Mentorship
+_Poster.aux") ) 
+Here is how much of TeX's memory you used:
+ 18629 strings out of 493921
+ 403613 string characters out of 3139661
+ 472914 words of memory out of 3000000
+ 21546 multiletter control sequences out of 15000+200000
+ 30153 words of font info for 64 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 62i,10n,92p,487b,1000s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Benson/Desktop/Math Mentorship/MikTex/fonts/enc/dvips/
+fontname/8r.enc}<C:/Users/Benson/Desktop/Math Mentorship/MikTex/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb><C:/Users/Benson/Desktop/Math Mentorship/MikTex/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Benson/Desktop/Math Mentorship/
+MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Benson/Desktop/Math 
+Mentorship/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Benson/Des
+ktop/Math Mentorship/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/
+Benson/Desktop/Math Mentorship/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/Benson/Desktop/Math Mentorship/MikTex/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Users/Benson/Desktop/Math Mentorship/MikTex/fonts/type1/public/am
+sfonts/cm/cmr5.pfb><C:/Users/Benson/Desktop/Math Mentorship/MikTex/fonts/type1/
+public/amsfonts/cm/cmr6.pfb><C:/Users/Benson/Desktop/Math Mentorship/MikTex/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Benson/Desktop/Math Mentorship/M
+ikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Benson/Desktop/Math Men
+torship/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Benson/Deskt
+op/Math Mentorship/MikTex/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Be
+nson/Desktop/Math Mentorship/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C
+:/Users/Benson/Desktop/Math Mentorship/MikTex/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb><C:/Users/Benson/Desktop/Math Mentorship/MikTex/fonts/type1/urw/p
+alatino/uplb8a.pfb><C:/Users/Benson/Desktop/Math Mentorship/MikTex/fonts/type1/
+urw/palatino/uplr8a.pfb><C:/Users/Benson/Desktop/Math Mentorship/MikTex/fonts/t
+ype1/urw/palatino/uplri8a.pfb>
+Output written on Mentorship_Poster.pdf (1 page, 226356 bytes).
+PDF statistics:
+ 118 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+

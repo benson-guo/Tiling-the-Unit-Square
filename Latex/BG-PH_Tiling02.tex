@@ -1,0 +1,324 @@
+\documentclass[11pt]{article}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage[all]{xy}		%xy-pic
+\usepackage{graphics}
+%\usepackage{psfrag, psfig}
+\usepackage[dvips]{graphicx}
+
+
+%\swapnumbers
+\theoremstyle{plain}%default
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{eg}{Example}
+\newtheorem*{claim}{Claim}
+
+\theoremstyle{remark}
+\newtheorem{rmk}[thm]{Remark}
+\newtheorem{notn}[thm]{Notation}
+
+\numberwithin{equation}{section}
+
+
+\title{On Tiling the Unit Square}
+\author{Benson Guo and Peter Hazard}
+\date{\today}
+
+\begin{document}
+
+\pagestyle{empty}
+\noindent
+Dear Benson,
+\vskip 10pt
+Here is a template for a Latex file to keep as a log of our project.
+On the second page I have added a comments section, where we can put comments, rough work, calculations, questions, etc.
+These should be added as a list, with the authors name (BG or PH resp.) and the date of the comment.
+\vskip 50pt
+
+{\flushright --PeH, \today.--}
+%\flushleft
+\newpage
+
+\paragraph{Comments.}
+\begin{itemize}
+\item[PH -- 2015/02/01]
+The sections ``Cross Sections'' and onwards are rough work, and will eventually (probably) be scrapped.
+\end{itemize}
+\begin{itemize}
+\item[BG -- 2015/02/07]
+We started the investigation of the viability of a greedy algorithm.
+The algorithm works as follows:
+\begin{enumerate}
+\item Assume the longer side of a rectangle $R$ has a length $\frac{a}{b}$, and shorter side with a length $\frac{a\prime}{b\prime}$
+\item Fill $R$ with a piece with a side length $\frac{1}{n_{0}}\times\frac{1}{n_{0}+1}  $ where $\frac{1}{n_0}$ satisfies $\frac{1}{n_0}\le\frac{a\prime}{b\prime}<\frac{1}{n_{0}-1}$
+\item Cut the remaining area into 2 rectangles:
+\begin{quote}
+$R_0: \frac{1}{n+1}\times(\frac{a\prime}{b\prime}-\frac{1}{n_0})  $
+\end{quote} 
+\begin{quote}
+$R_1: (\frac{a}{b}-\frac{1}{n+1})\times \frac{a\prime}{b\prime} $
+\end{quote} 
+\item Apply Step 1 to rectangle $R_0$.
+\item Stop when $\frac{a\prime}{b\prime} - \sum \frac{1}{n_i}=0$
+\item Apply Step 1 to next left-most rectangle.
+\end{enumerate}
+Studying  $R_0: \frac{1}{n_0+1}\times(\frac{a\prime}{b\prime}-\frac{1}{n_0})  $, we ask ourselves, is $\frac{a\prime}{b\prime}-\frac{1}{n_0}>\frac{1}{n_0+1}$?
+By hypothesis, $\frac{1}{n_0}\le\frac{a\prime}{b\prime}<\frac{1}{n_{0}-1} \Rightarrow 0\le\frac{a\prime}{b\prime}-\frac{1}{n_0}<\frac{1}{n_0-1}-\frac{1}{n_0}$
+
+$\frac{1}{n_0-1}-\frac{1}{n_0}=\frac{n_0-(n_0-1)}{n_0(n_0-1)}=\frac{1}{n_0(n_0-1)}$
+Is $\frac{1}{n_0(n_0-1)}<\frac{1}{n_0+1}$?
+
+$n_0+1<n_0^2-n_0\Rightarrow n_0^{2}-2n_0-1>0$
+
+Hence, $\frac{a\prime}{b\prime}-\frac{1}{n_i}<\frac{1}{n_i(n_i-1)}<\frac{1}{n_i+1}$ for $n_i\ge2$.
+This implicates that the shorter side will be on the vertical edges, which will approach $0$ as $\frac{1}{n_i}$ decreases. When it reaches $0$, the left side will be completely covered with smaller rectangles. 
+\end{itemize}
+\begin{itemize}
+\item[BG -- 2015/02/16]
+I coded a rough simulation of the greedy algorithm to answer the question of whether or not some rectangle will be required to be used twice. Very quickly I found a case in which the same rectangle is called upon consecutively. Take the case when you have a rectangle with dimensions $\frac{1}{n}\times\frac{1}{n+x}$. The algorithm will tile it with $\frac{1}{n+x}\times\frac{1}{n+x+1}$ and the remaining area will be, $\frac{1}{n}\times(\frac{1}{n}-\frac{1}{n+x+1})$. In this case $\frac{1}{n+x}\times\frac{1}{n+x+1}$ will be used again, provided $\frac{1}{n+x+1}$ is still the shorter side. Specifically, one case I came across was $\frac{1}{11}\times\frac{1}{140}$ which would be tiled with $\frac{1}{140}\times\frac{1}{141}$ leaving a rectangle of $\frac{130}{1551}\times\frac{1}{140}$. I will play around with the algorithm to see how we can go around this.
+\item[PH -- 2015/02/18]
+Observe that there are two choices for the greedy map. 
+Namely we can choose either
+\begin{equation}
+G\colon\frac{x}{y}\mapsto \frac{x}{y}-\frac{1}{m}, \qquad \frac{1}{m}\leq \frac{x}{y}<\frac{1}{m-1}
+\end{equation}
+or
+\begin{equation}
+\tilde G\colon\frac{x}{y}\mapsto \frac{x}{y}-\frac{1}{m}, \qquad \frac{1}{m}< \frac{x}{y}\leq\frac{1}{m-1}
+\end{equation}
+(Notice the difference in domains.)
+I think the first map was the one I introduced.
+However, the second map also terminates after finitely many step.
+In fact, in the `boundary' case of $\frac{x}{y}=\frac{1}{n}$ (the only case we really need to consider) we get
+\begin{equation}
+\frac{1}{n}-\frac{1}{n+1}=\frac{1}{n(n+1)}
+\end{equation}
+i.e. if the first map terminates after $k$ iterates, then the second terminates after $k+1$ iterates.
+
+Therefore try implementing the algorithm using the second greedy map $\tilde G$ instead (or a mixture of the two).
+
+I also started an appendix on properties of related maps (not-so-greedy maps). Currently, besides the definition of the family,  it only contains a question.
+\end {itemize}
+
+\begin{itemize}
+\item[BG -- 2015/02/24]
+A recap of what we discussed the previous weekend:
+
+It was proved that no 2-tile filling exists (Rectangle composed of two tiles). From this, you can infer that no 3 or 4 tiling exists. Note that a 5 tiling arrangements can exist.
+
+Definition: Let $R$ be a rectangle. Assume it is tiled with tiles $T_1, T_2,\ldots$
+
+We say $R$ is reducible if there is a subrectangle $R\prime\subset R$ and tiles  $T_{i1}, T_{i2},\ldots$ such that $R\prime $ is tiled by $T_1, T_2,\ldots$ (and $R\prime$ doesn't consist of a single tile)
+
+Claim: There exists an increasing sequence $N_1, N_2, \ldots$ such that for each $N_j$ there exists an irreducible tiling configuration with $j$ pieces.
+
+Proof:
+\begin{enumerate}
+\item Step 1: Start with an irreducible rectangle $R$ that is a $N_j$ tiling.
+\item Step 2: By induction, assume, $N_j$ is maximal.
+\item Step 3: Take a piece $T$ touching the boundary of $R_j$.
+\item Step 4: Extend $T$ outside the boundary, and let it be called $\tilde{T}$.
+\item Step 5: Complete the new rectangle $\tilde{R}$ by adding rectanges alongside $\tilde{T}$, let the sections be called $S_1, S_2$
+\item Step 6: Assume $\tilde{R}$ is reducible. Then $\exists  \tilde{R\prime}\subset \tilde{R}$ which is tiled.
+\item Step 7: If $\tilde{R\prime}\subset R$ we get a contradiction ($R$ is irreducible by assumption).
+\item Step 8: Hence, $\tilde{R\prime}$ contains at least one of $S_1, S_2, \tilde{T}$.
+
+
+Case 1: $\tilde{R\prime}$ contains exactly one of $S_1, S_2, \tilde{T}$. 
+
+-$S_i$, removing $S_i$ leaves $\tilde{R\prime \prime}=\tilde{R\prime}\setminus S_i$ tiled, which is a contradiction
+
+-$\tilde{T}$, removing $\tilde{T}$ leaves $\tilde{R\prime \prime}=(\tilde{R\prime}\setminus \tilde{T})\cup T$, also a contradiction
+
+
+Case 2: Case 1 fails in the case that $\tilde{R\prime \prime}$ is a single tile
+
+\end {enumerate}
+
+Questions:
+
+Are "towers" being formed from the greedy algorithm/rotational algorithm?
+
+Are the algorithms convergent? (Area of rectangle-tiles approaches 0)
+
+How long do tiles remain unchanged in the rotational algorithm?
+
+How can we prove the non-rotational algorithm always fails in a finite amount of steps?
+\end {itemize}
+
+\begin {itemize}
+\item [BG -- 2015/03/08]
+This week we looked at a new type of algorithm with a focus on the perimeter, and went back to the analysis of the old rotational algorithm.
+
+This algorithm is based on two types of ways to place tiles:
+\begin{enumerate}
+\item 1.  If possible, and if the resulting free space is roughly proportional to a square, add a tile that reduces the perimeter.
+\item 2. Otherwise, apply a splitting algorithm.
+\end {enumerate}
+
+During the tiling of approximately the $n$th tile, let the free spaces where a tile can be placed be $F_n^1,\ldots,F_n^{k_n}$
+
+The double splitting algorithm places a tile in a free space that is roughly double the dimension of the tile. Hence, we can expect the following approximations to be preserved.
+
+$F_N^{1} \sim \frac{2}{N+1} \times \frac {2}{N}$
+
+$F_N^{1} \sim \frac{2}{N+2} \times \frac {2}{N+1}$
+
+$\ldots$
+
+$F_N^{N} \sim \frac{2}{N+N} \times \frac {2}{N+N-1}$
+
+Note that a piece can only reduce the perimeter if it is placed in the first or last free space, and also has a length such that it completely fills part of the free space.
+
+
+Questions to investigate for the upcoming weeks:
+
+In the doubled splitting algorithm, does there exist a configuration of tiles $T_1, T_2, \ldots,T_N$ such that the free space satisifes the hypotheses, that the free spaces are approximately double the dimensions of unit tiles?
+
+Is there any other proportion of free blocks that is better suited for tiling?
+
+Does the perimeter of free space stop decreasing after some N in the roational algorithm?
+
+Is there more than one limit point? Perhaps a limit arc that is inside $R$?
+
+\end {itemize}
+
+\begin{itemize}
+\item [BG -- 2015/03/22]
+This week we discussed a strategy for creating an infinite tiling of the unit square, based on the double-splitting algorithm, mentioned in the previous weeks. 
+
+We discovered that to keep our assumption, of a corner tile being roughly in the proportion of $2:1$, where $F_N^{1} \sim \frac{1}{N_j} \times \frac {1}{N_j}$, we would have to tile it in the future on the tile in the order of $\frac{3N_j}{2}$
+
+\end {itemize}
+
+
+\newpage
+
+\maketitle
+
+\begin{abstract}
+We consider the problem, originally due to L.\ Moser, of tiling the unit square with rectangles of side lengths $\frac{1}{n}\times\frac{1}{n+1}$ for $n=1,2,\ldots$.
+This is the result of a University of Toronto Mentoring Program 2015.
+\end{abstract}
+\section{Introduction}
+We consider the following:
+\begin{quote}
+{\it Problem:}
+Can the unit square $[0,1]^2$ be tiled with rectangles of sides $\frac{1}{n}\times\frac{1}{n+1}$ for $n=1,2,\ldots$
+\end{quote}
+A more general formulation is the following:
+\begin{quote}
+{\it Problem:}
+Find the smallest square $[0,1+\epsilon]^2$, $\epsilon\geq 0$, into which the rectangles of sides $\frac{1}{n}\times\frac{1}{n+1}$, $n=1,2,\ldots$, can be packed.
+\end{quote}
+According to~\cite[Section D11]{CFG94} these problems are originally due to L.\ Moser.
+The best result for the second problem, to the authors knowledge, is due to Balint~\cite{Balint92, Balint98}. See also Paulhus~\cite{Paulhus98}.
+
+\section{Preliminaries}
+Let $T_0=[0,1]^2$ denote the unit square.
+For each $n\in\mathbb{N}$, let $T_n$ denote the tile of side lengths $\frac{1}{n}\times\frac{1}{n+1}$.
+In our considerations we shall make the following hypotheses about any tiling of $T_0$:
+\begin{quote}
+{\it Hypothesis 1:} 
+The tiles are added parallel to the sides of $T_0$.
+\end{quote}
+\begin{quote}
+{\it Hypothesis 2:}
+For each $n\in\mathbb{N}$, the free space $T_0\setminus \bigcup_{n=1}^{n}T_i$ is connected and simply connected.
+\end{quote}
+Assume a tiling is given.
+Let 
+\begin{equation}
+V_0=T_0, \qquad V_n=V_0\setminus \bigcup_{i=1}^{n}T_i, \quad i=1,2,\ldots
+\end{equation}
+Then, by the above hypotheses, for each positive integer $n$ the region $V_n$ is a polygon with sides aligned with the horizontal and vertical directions.
+Let $V_n$ have vertices $v_n^1,\ldots,v_n^{r_n}$.
+Consider the set of all horizontal and vertical lines through the $v_n^j$.
+Take their complement in $V_n$.
+This complement consists of finitely many rectangles $F_n^1,\ldots,F_n^{k_n}$ with sides parallel to the sides of $T_0$.
+Furthermore, $V_n=\bigcup_{i=1}^{k_n} F_n^i$.
+
+We make the following assumptions:
+\begin{quote}
+{\it Assumption 1:}
+For each positive integer $n$, the tile $T_n$ is positioned in $V_{n-1}$ so that at least one vertex of $T_n$ lies at one of the vertices of $V_{n-1}$.
+\end{quote}
+\begin{quote}
+{\it Assumption 2:}
+For each positive integer $n$, if the tile $T_n$ fits into one of the free spaces $F_{n-1}^j$, then it must be positioned in one of them.
+\end{quote}
+Now we ask the following questions:
+\begin{enumerate}
+\item Does a tiling exist satisfying Assumptions 1 and 2?
+\item Does such a tiling have the property that for each positive integer $n$, each $F_n^i$ except one, is eventually tiled by finitely many tiles?
+\end{enumerate}
+Since each $F_n^i$ has side-lengths of the form $\sum \frac{1}{n_i}-\sum \frac{1}{m_j}$ we therefore ask, firstly, if the sides can be `tiled' by a finite number of intervals of lengths $\frac{1}{l_1},\frac{1}{l_2},\ldots,\frac{1}{l_k}$, where $l_1,l_2,\ldots,l_k$ are distinct positive integers and $\min_r l_r >\max (n_i,m_j)$.
+In the case when we do not have the second contraint we know the following, originally due to Fibonacci and rediscovered by Sylvester.
+\begin{thm}
+Any positive rational number $\frac{a}{b}$ can be expressed as a finite sum of unit fractions, i.e. there exist distinct positive integers $n_1,n_2,\ldots,n_k$ such that
+\begin{equation}
+\frac{a}{b}=\frac{1}{n_1}+\frac{1}{n_2}+\cdots+\frac{1}{n_k}
+\end{equation}
+\end{thm}
+
+
+\subsection{Cross Sections}
+Assume a tiling exists. 
+Take a line parallel to the horizontal or vertical sides of $T_0$ and intersect it with $T_0$.
+Assume that the tiles $T_{i_1},T_{i_2},\ldots$ intersect this line horizontally and the tiles $T_{j_1},T_{j_2}$ intersect it vertically.
+Then
+\begin{equation}
+\sum\frac{1}{i_k}+\sum\frac{1}{j_k-1}=1
+\end{equation}
+The problem of finding positive integers $i_k, j_k$ satisfying this equation is classical. 
+(See Klee and Wagon~\cite[Chapter 2.15]{KleeWagon91}.)
+
+Assume there does exist a tiling of the unit square. 
+Note that if we take a horizontal section, i.e. intersect with $\{y=y_0\}$ we find the length decomposes as
+\begin{equation}
+1=|l(S(y_0))|=\sum |l(S_{n_i(y_0)}(y_0))|=\sum\frac{1}{n_i(y_0)}
+\end{equation}
+
+\section{Perimeter Representation}
+Observe that if a tiling exists then the perimeter of the free space must tend to zero, i.e. $\lim_{n\to \infty}|P(V_n)|=0$.
+
+\subsection{Winding Numbers: How to tell adding a tile is admissible.}
+
+\newpage
+\begin{appendix}
+\section{The Not-So-Greedy Algorithm}
+Consider the following map
+\begin{equation}
+\frac{a}{b}\mapsto \frac{a}{b}-\frac{1}{m+1}, \qquad \mbox{where} \qquad \frac{1}{m}\leq \frac{a}{b}<\frac{1}{m-1}
+\end{equation}
+More generally we can consider the $k$-th greedy map given by
+\begin{equation}
+G_k(x)=x-\frac{1}{\lceil x\rceil +k}
+\end{equation}
+The above gives $G_1$ and $G_0$ gives the standard greedy map, extended to the set of real numbers.
+As has been mentioned in the main text, the map $G_0$ terminates after finitely many iterates for each rational number.
+We ask the following question.
+\begin{quote}
+{\it Question: }
+For which real numbers does $G_1$ terminate after finitely many iterates?
+For which real numbers does $G_k$ terminate after finitely many iterates?
+\end{quote}
+It is clear that this set is a subset of the set of rational numbers. Hence we ask for which rational numbers does this ``not-so-greedy' algorithm terminate?
+\end{appendix}
+
+\small
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{amsplain}
+\bibliography{BG-PH_Tiling02}
+
+
+\end{document}
